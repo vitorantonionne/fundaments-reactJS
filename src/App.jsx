@@ -11,18 +11,9 @@ export function App() {
       <Header />
       <div className={styles.wrapper}>
         <Sidebar />
-        <aside>
-          sidebar
-        </aside>
         <main>
-          <Post 
-            author="Vitor Antonionne"
-            content="Lorem ipsum dolor sit amet consectetur adipisic"
-          />
-          <Post 
-            author="Vitor Antonionne"
-            content="Lorem ipsum dolor sit amet consectetur adipisic"
-          />
+          <Post />
+          <Post />
         </main>
       </div>
     </div>
