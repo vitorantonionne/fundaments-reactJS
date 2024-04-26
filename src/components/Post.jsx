@@ -1,4 +1,5 @@
 import styles from '../css/Post.module.css'
+import { Avatar } from './Avatar'
 import { Comment } from './Comment'
 
 export function Post(props) {
@@ -6,7 +7,7 @@ export function Post(props) {
     <article className={styles.post}>
       <header>
         <div className={styles.author}>
-          <img className={styles.avatar} src="https://avatars.githubusercontent.com/u/114239671?v=4"  />
+          <Avatar hasBorder src="https://avatars.githubusercontent.com/u/114239671?v=4"  />
           <div className={styles.authorInfo}>
             <strong>Vitor Antonionne</strong>
             <span>Web Developer</span>
